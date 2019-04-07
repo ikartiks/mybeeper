@@ -14,7 +14,7 @@ Dillinger uses a number of open source projects to work properly:
 
 * [androidx] - moving from android support libraries to androidx because of the reasons mentioned in links
 * [espresso] - for unit testing, android testing  (2 tests written)
-* [Room] - part of Jetpack, just wanted to show my proficiency in the same. [room_impl] You will find a better impl of room using app executors here, which is much more cleaner than the impl in this project as this one relies on creating threads
+* [Room] - part of Jetpack, just wanted to show my proficiency in the same. [room_impl] You will find a better impl of room using app executors here, which is much more cleaner than the impl in this project as this one relies on creating threads. It also uses RxKotlin
 * [ViewModel] - part of Jetpack, rotate the device and see all your data remain the same in configuration change.
 * [ConstraintsLayouts] - using constraints rather than traditional android layouts
 
@@ -39,4 +39,5 @@ Just clone  [github](https://github.com/ikartiks/mybeeper) in android studio and
    [Room]: <https://developer.android.com/topic/libraries/architecture/room>
    [ViewModel]: <https://developer.android.com/topic/libraries/architecture/viewmodel/>
    [espresso]: <https://developer.android.com/training/testing/espresso>
+   [room_impl]: <https://github.com/ikartiks/expenseTracker>
    
