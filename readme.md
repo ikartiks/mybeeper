@@ -3,11 +3,7 @@
 Hi Dimitry,
 Kindly go through this file before reviewing the project.
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
-# Approach
+# Approach used
 
   - I first wrote a simple prograam (non android) to get the number of weekdays between 2 dates (So you will find some print messages commented out). This is done by 1st counting the number of weeks between 2 dates. For the remainder of days (eg 3 in case of 24days) i check when was my week started and based on it I add more weekdays.
   - For holidays, the logic is pretty straightforward, I insert all holidays in a database. For all holidays by default, a flag called canBeCarryForwarded is true. Only in case of holidays on weekends which cannot be forwarded this flag is false. So to get the number of days to subtract from weekend, you simply query all holidays in the date range with this flag as true. 
