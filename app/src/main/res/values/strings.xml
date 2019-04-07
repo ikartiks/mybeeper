@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyBeeper Test</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">Select end date</string>
+    <string name="calculate">Calculate</string>
+    <string name="error_msg_dates">Enter the startDate and end date first</string>
+    <string name="app_initialised">appInitialised</string>
+</resources>
