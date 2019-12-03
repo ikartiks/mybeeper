@@ -48,8 +48,6 @@ class MainActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, View.On
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val factory = ViewModelFactory(application)
-//        mainActivityViewModel = ViewModelProviders.of(this, factory).get(MainActivityViewModel::class.java)
         mainActivityViewModel = ViewModelProviders.of(this).get(MainActivityViewModel::class.java)
 
         mainActivityViewModel.startDate?.let {
